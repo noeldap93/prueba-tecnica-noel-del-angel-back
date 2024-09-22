@@ -126,18 +126,19 @@
   {
     "id": 1726973440920,
     "name": "Noel Del Angel",
-    "email": "noel.delangel@outlook.com"
+    "email": "noel.delangel@outlook.com",
+    "password": "$2b$10$yzVRFMWmXnuO9kPsSKA5XeVTgpjFcbtqKZ/TyOPUj/72chEnmj2h6"
   },
   {
     "id": 1726973871606,
     "name": "Noel Del Angel",
     "email": "noel.delangel@example.com",
-    "password": "$2b$10$W1JNpuLIwKNeFhfB1I7Pf.TGNNWf3SdSIelUZ.X6Os2OWUrZyfpFO"
+    "password": "$2b$10$yzVRFMWmXnuO9kPsSKA5XeVTgpjFcbtqKZ/TyOPUj/72chEnmj2h6"
   },
   {
     "id": 1726994043743,
     "name": "Noel Del Angel Gmail",
     "email": "aragonknoel@gmail.com",
-    "password": "$2b$10$.nZJ0I.D05IJw9FrZMDNyOePsmNc7V6zJnPVo4fEcm0F3hhtb/wPS"
+    "password": "$2b$10$yzVRFMWmXnuO9kPsSKA5XeVTgpjFcbtqKZ/TyOPUj/72chEnmj2h6"
   }
 ]
