@@ -51,7 +51,7 @@ export class FileRepository<T> {
 
         this.data[index] = new this.entity({
             ...this.data[index],
-            ...this.#cleanEntity(this.entity)
+            ...this.#cleanEntity(newData)
         });
         // console.log(this.data[index]); 
         await this.save();
@@ -73,6 +73,7 @@ export class FileRepository<T> {
     #cleanEntity(entity) {
         const cleanEntity = new this.entity(entity);
         Object.keys(cleanEntity).forEach(key => cleanEntity[key] === undefined ? delete cleanEntity[key] : {});
+        console.log('clean entity',cleanEntity);
         return cleanEntity;
     }
 }
