@@ -54,7 +54,7 @@ export class UserService {
         if (updateDto.password) {
             password = await hashPassword(updateDto.password);
         }
-        this.#validateExisting(updateDto.email, id);
+        await this.#validateExisting(updateDto.email, id);
         return this.repo.update({ id }, {
             ...updateDto,
             password
